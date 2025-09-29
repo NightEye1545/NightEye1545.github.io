@@ -1,12 +1,12 @@
 - key: home
-label: Home
-path: /
-show_in_header: true
-show_in_footer: false
+ label: Home
+ path: /
+ show_in_header: true
+ show_in_footer: false
 
 
 - key: articles
-label: Articles
-path: /articles/
-show_in_header: true
-show_in_footer: true
+ label: Articles
+ path: /articles/
+ show_in_header: true
+ show_in_footer: true
