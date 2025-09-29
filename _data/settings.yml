@@ -1,0 +1,9 @@
+layout_mode: classic # future: rails, etc.
+site:
+items_on_home: 6
+date_format: "%B %d, %Y"
+search:
+provider: local # future: algolia|google
+enabled: true
+placeholder: "Search…"
+accent: "#7c9cff" # change this to re-theme
