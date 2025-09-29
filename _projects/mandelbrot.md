@@ -4,7 +4,7 @@ title: Mandelbrot Explorer
 permalink: /projects/mandelbrot/
 ---
 
-For this project, I wanted to give the users a bit more freedom than usual on how to change the Mandelbrot set parameters. It gives rise to a miriad of even more interesting structures. Definitely give it a go!
+For this project, I wanted to give the users a bit more freedom than usual on how to change the Mandelbrot set parameters. It gives rise to a miriad of even more interesting structures. Definitely give it a go! Yup!
 
 <div class="embed-wrapper">
   <iframe
