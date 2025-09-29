@@ -9,3 +9,9 @@
   path: /articles/
   show_in_header: true
   show_in_footer: true
+
+- key: projects
+  label: Projects
+  path: /projects/
+  show_in_header: true
+  show_in_footer: true
