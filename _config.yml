@@ -1,0 +1,16 @@
+title: Naim's Hub
+description: A dark, fast personal hub
+markdown: kramdown
+permalink: pretty
+
+
+# Single section for now
+collections:
+articles:
+output: true
+permalink: /articles/:title/
+
+
+defaults:
+- scope: { path: "", type: "articles" }
+values: { layout: item } # we'll point list/item later; for now default.html is fine
