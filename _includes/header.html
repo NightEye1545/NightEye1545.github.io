@@ -1,0 +1,17 @@
+<header class="site-header">
+<div class="container nav">
+<a class="brand" href="{{ '/' | relative_url }}">Naim<span class="brand-dot">•</span></a>
+<nav class="primary-nav">
+{% assign items = site.data.navigation | where: 'show_in_header', true %}
+{% for item in items %}
+<a href="{{ item.path | relative_url }}" class="{% if page.url == item.path %}active{% endif %}">{{ item.label }}</a>
+{% endfor %}
+</nav>
+{% if site.data.settings.search.enabled %}
+<form class="search" role="search" action="{{ '/search/' | relative_url }}" method="get">
+<input type="search" name="q" placeholder="{{ site.data.settings.search.placeholder }}" aria-label="Search" />
+<button type="submit" aria-label="Search">⌕</button>
+</form>
+{% endif %}
+</div>
+</header>
