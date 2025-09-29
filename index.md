@@ -6,7 +6,7 @@ title: Home
 
 <div class="card" style="margin-bottom:16px">
 <h1>Hey, I’m Naim.</h1>
-<p class="muted">This is my dark, fast personal hub. I’ll start with Articles and add more sections later.</p>
+<p class="muted">This is my dark, fast personal hub. I’ll start with Articles and add more sections later. Yup.</p>
 <p style="margin-top:12px"><a href="{{ '/articles/' | relative_url }}">View Articles →</a></p>
 </div>
 
