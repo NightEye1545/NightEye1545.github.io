@@ -13,4 +13,4 @@ permalink: /articles/:title/
 
 defaults:
 - scope: { path: "", type: "articles" }
-values: { layout: item } # we'll point list/item later; for now default.html is fine
+values: { layout: item } # we'll point list/item later; for now default.html is fine. yup
